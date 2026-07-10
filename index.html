@@ -1,79 +1,75 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Optima Code | حلول برمجية مبتكرة</title>
+    <title>Optima Code | احترافية رقمية</title>
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- AOS Library for Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap');
         body { font-family: 'Tajawal', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
     </style>
 </head>
-<body class="bg-slate-950 text-white selection:bg-blue-500">
-
-    <!-- Navbar -->
-    <nav class="container mx-auto px-6 py-6 flex justify-between items-center">
-        <div class="text-2xl font-black text-blue-500 tracking-tighter">OPTIMA<span class="text-white">CODE</span></div>
-        <div class="hidden md:flex gap-8 font-medium">
-            <a href="#services" class="hover:text-blue-400 transition">خدماتنا</a>
-            <a href="#contact" class="hover:text-blue-400 transition">اتصل بنا</a>
-        </div>
-    </nav>
+<body class="bg-[#050505] text-white">
 
     <!-- Hero Section -->
-    <header class="container mx-auto px-6 py-20 text-center">
-        <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
-            نحول أفكارك إلى <span class="text-blue-500">واقع رقمي</span>
+    <section class="h-screen flex flex-col justify-center items-center text-center p-6 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-purple-900/40 to-transparent">
+        <h1 data-aos="fade-up" class="text-6xl md:text-8xl font-black mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-600">
+            OPTIMA CODE
         </h1>
-        <p class="text-gray-400 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-            في Optima Code، نبني حلولاً برمجية ذكية، مواقع ويب عصرية، وهويات بصرية تجعل مشروعك في القمة.
+        <p data-aos="fade-up" data-aos-delay="200" class="text-gray-400 text-xl mb-8 max-w-xl">
+            مستقبلك الرقمي يبدأ من هنا. حلول برمجية بلمسة فنية وتكنولوجيا متطورة.
         </p>
-        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-lg shadow-blue-900/20">
-            ابدأ مشروعك الآن
+        <a href="mailto:optimacodee@gmail.com" data-aos="zoom-in" data-aos-delay="400" 
+           class="px-10 py-4 bg-purple-600 rounded-full font-bold hover:scale-110 transition-all duration-300 hover:shadow-[0_0_30px_rgba(147,51,234,0.6)]">
+            ابدأ رحلتك
         </a>
-    </header>
+    </section>
 
     <!-- Services Section -->
     <section id="services" class="container mx-auto px-6 py-20">
-        <h2 class="text-4xl font-bold text-center mb-16">خدماتنا الاحترافية</h2>
+        <h2 data-aos="fade-right" class="text-4xl font-bold mb-16 border-r-4 border-purple-500 pr-4">خدماتنا</h2>
+        
         <div class="grid md:grid-cols-3 gap-8">
             <!-- Card 1 -->
-            <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-blue-500 transition">
-                <div class="text-blue-500 text-3xl mb-4">💻</div>
-                <h3 class="text-xl font-bold mb-2">تطوير المواقع</h3>
-                <p class="text-gray-400">مواقع سريعة، متجاوبة مع جميع الأجهزة، ومحسنة لمحركات البحث.</p>
+            <div data-aos="flip-left" class="glass p-8 rounded-3xl hover:border-purple-500 transition-all duration-500 group">
+                <div class="text-purple-400 text-4xl mb-4 group-hover:scale-125 transition-transform">💻</div>
+                <h3 class="text-2xl font-bold mb-2">تطوير المواقع</h3>
+                <p class="text-gray-400">مواقع ويب سريعة بتصاميم عصرية وتجربة مستخدم خيالية.</p>
             </div>
+            
             <!-- Card 2 -->
-            <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-blue-500 transition">
-                <div class="text-blue-500 text-3xl mb-4">🎨</div>
-                <h3 class="text-xl font-bold mb-2">الهوية البصرية</h3>
-                <p class="text-gray-400">تصميم شعارات وهوية متكاملة تعكس قوة واحترافية علامتك التجارية.</p>
+            <div data-aos="flip-left" data-aos-delay="100" class="glass p-8 rounded-3xl hover:border-purple-500 transition-all duration-500 group">
+                <div class="text-purple-400 text-4xl mb-4 group-hover:scale-125 transition-transform">🎨</div>
+                <h3 class="text-2xl font-bold mb-2">هوية بصرية</h3>
+                <p class="text-gray-400">تصميمات تعكس قوة علامتك التجارية وتجذب الأنظار.</p>
             </div>
+
             <!-- Card 3 -->
-            <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-blue-500 transition">
-                <div class="text-blue-500 text-3xl mb-4">⚙️</div>
-                <h3 class="text-xl font-bold mb-2">الأنظمة الذكية</h3>
-                <p class="text-gray-400">برمجة حلول وأدوات مخصصة لتسريع عملك وتحسين الإنتاجية.</p>
+            <div data-aos="flip-left" data-aos-delay="200" class="glass p-8 rounded-3xl hover:border-purple-500 transition-all duration-500 group">
+                <div class="text-purple-400 text-4xl mb-4 group-hover:scale-125 transition-transform">⚡</div>
+                <h3 class="text-2xl font-bold mb-2">أنظمة ذكية</h3>
+                <p class="text-gray-400">أدوات مخصصة ترفع من كفاءة عملك وتوفر وقتك.</p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container mx-auto px-6 py-20 text-center">
-        <div class="bg-blue-600 rounded-3xl p-10 md:p-20">
-            <h2 class="text-3xl md:text-5xl font-bold mb-6">مستعد للبدء؟</h2>
-            <p class="mb-10 text-blue-100">تواصل معنا اليوم وناقش مشروعك القادم مع فريقنا.</p>
-            <a href="https://wa.me/YOUR_NUMBER" target="_blank" class="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-100 transition">
-                راسلنا عبر واتساب
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center py-10 text-gray-500 text-sm">
-        &copy; 2026 Optima Code. جميع الحقوق محفوظة.
+    <!-- Footer / Contact -->
+    <footer class="py-20 text-center">
+        <p class="text-gray-500 mb-6">جاهز للعمل معنا؟</p>
+        <a href="mailto:optimacodee@gmail.com" class="text-2xl font-bold text-purple-400 hover:text-white transition-colors">
+            optimacodee@gmail.com
+        </a>
     </footer>
 
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
 </body>
 </html>
