@@ -2,66 +2,65 @@
 <html lang="ar" dir="rtl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <title>Optima Code | المستقبل الرقمي</title>
+    <title>Optima Code | Pro Level</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* CSS 3D Effect */
-        .card-3d {
-            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-            transform-style: preserve-3d;
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;800&display=swap');
+        body { font-family: 'Tajawal', sans-serif; background-color: #020202; }
+        
+        /* تأثير النيون للوجو */
+        .neon-logo { filter: drop-shadow(0 0 15px rgba(168, 85, 247, 0.6)); }
+        
+        /* كاردس بلمسة 3D */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
-        .card-3d:hover {
-            transform: translateY(-10px) rotateX(10deg) rotateY(10deg);
+        .glass-card:hover {
+            transform: translateY(-20px) scale(1.02);
+            border-color: #a855f7;
+            box-shadow: 0 20px 40px rgba(168, 85, 247, 0.2);
         }
-        body { background: #050505; color: white; font-family: 'Tajawal', sans-serif; }
     </style>
 </head>
-<body>
+<body class="text-white overflow-x-hidden">
 
-    <!-- Hero Section -->
-    <header class="h-screen flex flex-col justify-center items-center text-center p-6 relative overflow-hidden">
-        <!-- Background Animation -->
-        <div class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent"></div>
+    <!-- Hero -->
+    <section class="h-screen flex flex-col justify-center items-center relative">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_rgba(168,85,247,0.15),_transparent)]"></div>
         
-        <div class="z-10 animate-fade-in">
-            <img src="logo.png" alt="Optima Code" class="w-40 h-40 mx-auto mb-8 drop-shadow-[0_0_15px_rgba(168,85,247,0.5)]">
-            <h1 class="text-6xl md:text-9xl font-black mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-500">
-                OPTIMA CODE
-            </h1>
-            <p class="text-xl md:text-2xl text-purple-400 font-light mb-10">نصنع المستقبل، بلمسة تقنية.</p>
-            <a href="mailto:optimacodee@gmail.com" class="group relative px-8 py-4 bg-white text-black font-bold rounded-full overflow-hidden transition-all hover:scale-110">
-                <span class="relative z-10">ابدأ رحلتك الآن</span>
-                <div class="absolute inset-0 bg-purple-500 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
-            </a>
-        </div>
-    </header>
+        <img src="logo.png" alt="Optima Code" class="w-32 mb-10 neon-logo animate-pulse">
+        
+        <h1 class="text-7xl md:text-9xl font-black mb-6 tracking-tighter">OPTIMA<span class="text-purple-500">CODE</span></h1>
+        <p class="text-gray-400 text-xl font-light mb-12">نصنع المستقبل البرمجي بلمسة فنية</p>
+        
+        <a href="mailto:optimacodee@gmail.com" class="px-12 py-5 bg-white text-black font-bold text-lg rounded-full hover:bg-purple-500 hover:text-white transition-all duration-300">
+            احجز مشروعك الآن
+        </a>
+    </section>
 
-    <!-- Services Grid -->
-    <section class="container mx-auto px-6 py-20">
-        <h2 class="text-4xl font-bold text-center mb-20 text-white">خدماتنا الثلاثية</h2>
-        <div class="grid md:grid-cols-3 gap-10">
-            
-            <!-- Card 1 -->
-            <div class="card-3d p-10 bg-gray-900/50 backdrop-blur-lg border border-gray-800 rounded-3xl">
+    <!-- Services -->
+    <section class="container mx-auto px-6 py-32">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass-card p-10 rounded-[2rem]">
                 <div class="text-purple-500 text-5xl mb-6">🚀</div>
-                <h3 class="text-2xl font-bold mb-4">تطوير الويب</h3>
-                <p class="text-gray-400">مواقع سريعة، متجاوبة، ومصممة لتكون سابقة لزمنها.</p>
+                <h3 class="text-2xl font-bold mb-4">الابتكار الرقمي</h3>
+                <p class="text-gray-400">نحول أفكارك لمواقع ذات أداء فائق وتجربة مستخدم عالمية.</p>
+            </div>
+            
+            <div class="glass-card p-10 rounded-[2rem]">
+                <div class="text-purple-500 text-5xl mb-6">👁️</div>
+                <h3 class="text-2xl font-bold mb-4">الهوية البصرية</h3>
+                <p class="text-gray-400">تصاميم استراتيجية تعطي لمشروعك قوة وحضور في السوق.</p>
             </div>
 
-            <!-- Card 2 -->
-            <div class="card-3d p-10 bg-gray-900/50 backdrop-blur-lg border border-gray-800 rounded-3xl">
-                <div class="text-purple-500 text-5xl mb-6">💎</div>
-                <h3 class="text-2xl font-bold mb-4">هوية بصرية</h3>
-                <p class="text-gray-400">نصمم هوية بصرية تعطي انطباع الفخامة والقوة لعلامتك.</p>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="card-3d p-10 bg-gray-900/50 backdrop-blur-lg border border-gray-800 rounded-3xl">
-                <div class="text-purple-500 text-5xl mb-6">⚙️</div>
+            <div class="glass-card p-10 rounded-[2rem]">
+                <div class="text-purple-500 text-5xl mb-6">⚡</div>
                 <h3 class="text-2xl font-bold mb-4">أنظمة ذكية</h3>
-                <p class="text-gray-400">أتمتة العمليات وتقديم حلول تقنية تعزز نمو مشروعك.</p>
+                <p class="text-gray-400">أدوات مخصصة لأتمتة أعمالك ورفع كفاءة فريقك.</p>
             </div>
-
         </div>
     </section>
 
