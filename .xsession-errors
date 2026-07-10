@@ -1,0 +1,663 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/kali/.Xauthority
+/etc/X11/Xsession.d/30x11-common_xresources: line 16: has_option: command not found
+/etc/X11/Xsession.d/50x11-common_determine-startup: line 10: has_option: command not found
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/etc/X11/Xsession.d/75dbus_dbus-launch: line 9: has_option: command not found
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+/etc/X11/Xsession.d/90x11-common_ssh-agent: line 9: has_option: command not found
+dbus-update-activation-environment: setting SHELL=/usr/bin/zsh
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting POWERSHELL_UPDATECHECK=Off
+dbus-update-activation-environment: setting POWERSHELL_TELEMETRY_OPTOUT=1
+dbus-update-activation-environment: setting DOTNET_CLI_TELEMETRY_OPTOUT=1
+dbus-update-activation-environment: setting NMAP_PRIVILEGED=
+dbus-update-activation-environment: setting DESKTOP_SESSION=lightdm-xsession
+dbus-update-activation-environment: setting PWD=/home/kali
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lightdm-xsession
+dbus-update-activation-environment: setting LOGNAME=kali
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=qt5ct
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/kali/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/kali
+dbus-update-activation-environment: setting COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+dbus-update-activation-environment: setting HOME=/home/kali
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=kali
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting QT_AUTO_SCREEN_SCALE_FACTOR=0
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting PATH=/home/kali/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/kali/.dotnet/tools
+dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+** Message: 11:06:20.420: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 11:06:20.421: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 11:06:20.421: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 11:06:20.421: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+gpg-agent: a gpg-agent is already running - not starting a new one
+** Message: 11:06:21.124: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+
+(xfwm4:1311): xfwm4-WARNING **: 11:06:21.393: Unsupported GL renderer (llvmpipe (LLVM 21.1.8, 256 bits)).
+
+(polkit-mate-authentication-agent-1:1787): GLib-CRITICAL **: 11:06:24.271: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-mate-authentication-agent-1:1787): polkit-mate-1-WARNING **: 11:06:24.276: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(vmware-user:1771): Gtk-WARNING **: 11:06:25.210: gtk_disable_setlocale() must be called before gtk_init()
+blueman-applet 11.06.26 WARNING  PluginManager:153 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 11.06.26 WARNING  PluginManager:153 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 11.06.26 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
+qt.qpa.services: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:18:59.818: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:18:59.819: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.051: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.052: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.052: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.052: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.067: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.067: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.067: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.067: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.078: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.078: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.078: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.078: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.088: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.088: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.088: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.088: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.096: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.096: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.096: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.096: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.104: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.104: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.104: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.104: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.110: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.111: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.111: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.111: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.117: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.117: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.117: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.117: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.125: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.125: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.125: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.125: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.132: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.132: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.132: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.132: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.138: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.138: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.138: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.138: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.144: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.144: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.144: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.144: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.153: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.153: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.153: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.153: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.162: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.162: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.162: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.162: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.171: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.171: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.171: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.171: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.175: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.175: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.175: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.175: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.180: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.180: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.180: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.180: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.185: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.185: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.185: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.186: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.194: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.194: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.194: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.194: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.218: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.218: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.218: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.218: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.230: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.230: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.230: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.230: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.238: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.238: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.238: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.238: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.258: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.258: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.258: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.258: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.274: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.274: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.274: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.274: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.305: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.305: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.305: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.305: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.314: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.315: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.315: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.315: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.323: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.323: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.323: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.323: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.330: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.331: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.331: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.331: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.337: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.337: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.337: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.337: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.347: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.347: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.347: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.347: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.353: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.353: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.353: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.354: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.358: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.358: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.358: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.358: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.363: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.363: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.363: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.363: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.368: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.368: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.368: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.368: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.372: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.373: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.373: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.373: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.377: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.377: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.377: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.377: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.381: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): Gtk-CRITICAL **: 11:19:00.382: gtk_icon_theme_has_icon: assertion 'icon_name != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.382: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.382: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.386: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.386: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.390: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.390: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.394: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.394: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.399: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.399: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.403: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.403: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.408: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.408: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.413: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.413: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.417: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.417: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.422: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.422: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.426: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.427: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.432: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.432: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.437: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.437: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.441: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.441: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.446: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.446: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.450: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.450: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.454: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.454: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.458: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.458: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.462: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.462: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.466: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.466: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.471: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.471: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.475: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.475: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.479: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.479: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.483: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.483: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.487: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.487: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.492: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.492: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.496: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.496: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.501: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.501: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.505: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.505: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.509: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.509: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.514: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.514: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.518: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.518: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.523: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.523: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.527: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.527: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.531: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.531: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.535: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.535: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.540: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.540: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.544: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.544: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.549: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.549: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.556: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.556: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.560: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.560: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.565: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.565: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.569: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.570: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.575: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.575: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.579: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.579: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.583: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.583: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.587: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.587: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.591: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.591: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.595: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.595: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.599: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.599: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.604: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.604: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.607: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.608: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.611: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.611: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.616: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.616: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.620: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.620: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.623: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.624: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.627: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.627: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.636: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.636: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.640: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.640: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.644: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.644: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.649: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.649: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.654: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.654: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.675: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.675: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.684: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.684: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.690: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.690: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.698: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.698: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.707: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.707: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.715: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.715: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.732: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.732: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.755: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.755: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.787: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.787: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.810: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.810: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.831: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.831: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.844: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1435): GLib-CRITICAL **: 11:19:00.844: g_strrstr: assertion 'haystack != NULL' failed
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
