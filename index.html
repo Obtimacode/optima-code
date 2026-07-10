@@ -2,12 +2,78 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optima Code | حلول برمجية مبتكرة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        body { background-color: #0f172a; color: #a855f7; font-family: sans-serif; text-align: center; margin-top: 50px; }
+        body { font-family: 'Tajawal', sans-serif; }
     </style>
-    <title>Optima Code</title>
 </head>
-<body>
-    <h1>Welcome to Optima Code</h1>
+<body class="bg-slate-950 text-white selection:bg-blue-500">
+
+    <!-- Navbar -->
+    <nav class="container mx-auto px-6 py-6 flex justify-between items-center">
+        <div class="text-2xl font-black text-blue-500 tracking-tighter">OPTIMA<span class="text-white">CODE</span></div>
+        <div class="hidden md:flex gap-8 font-medium">
+            <a href="#services" class="hover:text-blue-400 transition">خدماتنا</a>
+            <a href="#contact" class="hover:text-blue-400 transition">اتصل بنا</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="container mx-auto px-6 py-20 text-center">
+        <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
+            نحول أفكارك إلى <span class="text-blue-500">واقع رقمي</span>
+        </h1>
+        <p class="text-gray-400 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
+            في Optima Code، نبني حلولاً برمجية ذكية، مواقع ويب عصرية، وهويات بصرية تجعل مشروعك في القمة.
+        </p>
+        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-lg shadow-blue-900/20">
+            ابدأ مشروعك الآن
+        </a>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="container mx-auto px-6 py-20">
+        <h2 class="text-4xl font-bold text-center mb-16">خدماتنا الاحترافية</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-blue-500 transition">
+                <div class="text-blue-500 text-3xl mb-4">💻</div>
+                <h3 class="text-xl font-bold mb-2">تطوير المواقع</h3>
+                <p class="text-gray-400">مواقع سريعة، متجاوبة مع جميع الأجهزة، ومحسنة لمحركات البحث.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-blue-500 transition">
+                <div class="text-blue-500 text-3xl mb-4">🎨</div>
+                <h3 class="text-xl font-bold mb-2">الهوية البصرية</h3>
+                <p class="text-gray-400">تصميم شعارات وهوية متكاملة تعكس قوة واحترافية علامتك التجارية.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-blue-500 transition">
+                <div class="text-blue-500 text-3xl mb-4">⚙️</div>
+                <h3 class="text-xl font-bold mb-2">الأنظمة الذكية</h3>
+                <p class="text-gray-400">برمجة حلول وأدوات مخصصة لتسريع عملك وتحسين الإنتاجية.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto px-6 py-20 text-center">
+        <div class="bg-blue-600 rounded-3xl p-10 md:p-20">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">مستعد للبدء؟</h2>
+            <p class="mb-10 text-blue-100">تواصل معنا اليوم وناقش مشروعك القادم مع فريقنا.</p>
+            <a href="https://wa.me/YOUR_NUMBER" target="_blank" class="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-100 transition">
+                راسلنا عبر واتساب
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-10 text-gray-500 text-sm">
+        &copy; 2026 Optima Code. جميع الحقوق محفوظة.
+    </footer>
+
 </body>
 </html>
