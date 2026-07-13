@@ -14,12 +14,12 @@
            1. Palettes de Couleurs (Inspirées du Logo)
            ========================================= */
         :root {
-            --bg-dark: #0A0714;         /* الأسود الأرجواني الداكن للخلفية */
-            --bg-card: #130F26;         /* ألوان بطاقات اللوغو الداخلية */
-            --primary-neon: #8A3FFC;    /* البنفسجي المشع للوغو */
-            --secondary-glow: #6366F1;  /* أزرق نيوني متناسق */
-            --text-main: #F3F4F6;       /* أبيض فضي ناصع */
-            --text-muted: #9CA3AF;      /* رمادي ناعم للنصوص الثانوية */
+            --bg-dark: #0A0714;         
+            --bg-card: #130F26;         
+            --primary-neon: #8A3FFC;    
+            --secondary-glow: #6366F1;  
+            --text-main: #F3F4F6;       
+            --text-muted: #9CA3AF;      
             --gradient-cyber: linear-gradient(135deg, #8A3FFC 0%, #6366F1 100%);
         }
 
@@ -42,7 +42,6 @@
             background-color: var(--bg-dark);
             color: var(--text-main);
             overflow-x: hidden;
-            perspective: 1000px; /* تفعيل البعد الثالث في الصفحة */
         }
 
         /* Custom Scrollbar */
@@ -120,7 +119,7 @@
         }
 
         /* =========================================
-           4. Section Principale (Hero) + Effets 3D
+           4. Section Principale (Hero)
            ========================================= */
         .hero {
             min-height: 100vh;
@@ -180,10 +179,11 @@
             align-items: center;
         }
 
-        /* الحاوية التفاعلية ثلاثية الأبعاد للوغو */
+        /* حاوية اللوغو ثلاثية الأبعاد الثابتة والمحمية من القليتشات */
         .tilt-box-container {
             width: 380px;
             height: 380px;
+            max-width: 100%;
             perspective: 1000px;
         }
 
@@ -196,8 +196,8 @@
             justify-content: center;
             align-items: center;
             position: relative;
-            transform-style: preserve-3d; /* تفعيل العمق للعناصر الداخلية */
-            transition: transform 0.1s ease;
+            transform-style: preserve-3d;
+            transition: transform 0.3s ease-out; /* حركة ناعمة جداً لمنع أي نتعة */
             border: 1px solid rgba(138, 63, 252, 0.25);
             box-shadow: 0 30px 60px rgba(0,0,0,0.4), inset 0 0 20px rgba(138, 63, 252, 0.1);
         }
@@ -206,14 +206,14 @@
             width: 65%;
             height: 65%;
             object-fit: contain;
-            transform: translateZ(50px); /* يجعل اللوغو يطفو خارج الصندوق بالبعد الثالث */
+            transform: translateZ(50px);
             filter: drop-shadow(0 15px 30px rgba(138, 63, 252, 0.5));
             animation: floatingLogo 4s ease-in-out infinite alternate;
         }
 
         @keyframes floatingLogo {
             0% { transform: translateZ(50px) translateY(0px); }
-            100% { transform: translateZ(70px) translateY(-10px); }
+            100% { transform: translateZ(50px) translateY(-10px); }
         }
 
         /* Boutons Professionnels */
@@ -232,9 +232,10 @@
             font-weight: 600;
             font-size: 1.05rem;
             box-shadow: 0 10px 25px rgba(138, 63, 252, 0.4);
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: all 0.3s ease;
             border: none;
             cursor: pointer;
+            text-align: center;
         }
 
         .btn-cyber:hover {
@@ -252,6 +253,7 @@
             font-size: 1.05rem;
             transition: all 0.3s ease;
             background: transparent;
+            text-align: center;
         }
 
         .btn-outline:hover {
@@ -261,7 +263,7 @@
         }
 
         /* =========================================
-           5. Section Services (Pour PME & E-commerce)
+           5. Section Services
            ========================================= */
         .services-section {
             padding: 100px 8%;
@@ -289,11 +291,10 @@
 
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
         }
 
-        /* كروت ذكية بـ تأثير ثلاثي أبعاد تفاعلي */
         .service-card-wrap {
             perspective: 1000px;
         }
@@ -305,7 +306,7 @@
             padding: 45px 35px;
             height: 100%;
             transform-style: preserve-3d;
-            transition: transform 0.1s ease, border-color 0.3s ease;
+            transition: transform 0.3s ease-out, border-color 0.3s ease; /* إضافة تانزpositions ناعمة لمنع الـ glitch */
         }
 
         .service-card:hover {
@@ -316,13 +317,11 @@
             font-size: 2.5rem;
             margin-bottom: 25px;
             display: inline-block;
-            transform: translateZ(30px);
         }
 
         .service-card h3 {
             font-size: 1.5rem;
             margin-bottom: 15px;
-            transform: translateZ(25px);
             color: var(--text-main);
         }
 
@@ -330,11 +329,10 @@
             color: var(--text-muted);
             font-size: 1.05rem;
             line-height: 1.7;
-            transform: translateZ(15px);
         }
 
         /* =========================================
-           6. Section Portfolio (Ultra-Moderne & Supérieure)
+           6. Section Portfolio
            ========================================= */
         .portfolio-section {
             padding: 100px 8%;
@@ -354,7 +352,6 @@
             backdrop-filter: blur(10px);
             box-shadow: 0 20px 50px rgba(0,0,0,0.3);
             margin-top: 40px;
-            transform-style: preserve-3d;
         }
 
         .project-info {
@@ -386,30 +383,32 @@
 
         .project-visual-wrapper {
             flex: 1.2;
-            perspective: 1000px;
+            width: 100%;
         }
 
-        /* عرض رائع ومائل للمشروع السابق يظهر الجودة والدقة */
         .project-screen-mockup {
             width: 100%;
             height: 340px;
+            max-width: 100%;
             background: linear-gradient(135deg, #1A133A 0%, #2D1B4E 100%);
             border-radius: 16px;
             overflow: hidden;
             border: 2px solid rgba(138, 63, 252, 0.3);
             box-shadow: -20px 20px 40px rgba(0,0,0,0.5);
-            transform: rotateY(-15px) rotateX(10px);
+            transform: rotateY(-12px) rotateX(6deg);
             transition: transform 0.5s ease, box-shadow 0.5s ease;
             display: flex;
             flex-direction: column;
         }
 
-        .project-screen-mockup:hover {
-            transform: rotateY(0deg) rotateX(0deg) scale(1.02);
-            box-shadow: 0 25px 50px rgba(138, 63, 252, 0.25);
+        /* إلغاء الالتواء في الشاشات اللمسية لتجنب المشاكل */
+        @media (hover: hover) {
+            .project-screen-mockup:hover {
+                transform: rotateY(0deg) rotateX(0deg) scale(1.02);
+                box-shadow: 0 25px 50px rgba(138, 63, 252, 0.25);
+            }
         }
 
-        /* شريط المتصفح الوهمي الفخم */
         .browser-bar {
             background: #130F26;
             padding: 10px 15px;
@@ -444,7 +443,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #FFF5F5; /* لون موقع ميمورابل ايفنت */
+            background-color: #FFF5F5; 
             color: #0D0D0D;
             font-weight: 800;
             font-size: 1.5rem;
@@ -460,7 +459,7 @@
         }
 
         /* =========================================
-           7. Section Contact / Pied de page (Footer)
+           7. Section Contact / Footer
            ========================================= */
         footer {
             background-color: #06040C;
@@ -502,6 +501,8 @@
             font-family: 'Space Grotesk', sans-serif;
             transition: all 0.3s ease;
             letter-spacing: 0.5px;
+            max-width: 100%;
+            word-break: break-all;
         }
 
         .email-link-card:hover {
@@ -527,7 +528,7 @@
            ========================================= */
         .reveal {
             opacity: 0;
-            transform: translateY(40px);
+            transform: translateY(30px);
             transition: opacity 0.8s ease, transform 0.8s ease;
         }
 
@@ -537,13 +538,14 @@
         }
 
         /* =========================================
-           9. Responsive Design (PC / Tablet / Mobile)
+           9. Responsive Design 완벽한 (PC / Tablet / Mobile)
            ========================================= */
         @media (max-width: 1024px) {
             .hero {
                 flex-direction: column;
                 text-align: center;
                 padding-top: 160px;
+                gap: 40px;
             }
             .hero-text {
                 display: flex;
@@ -556,9 +558,10 @@
             .featured-project-card {
                 flex-direction: column;
                 padding: 35px 25px;
+                gap: 30px;
             }
             .project-screen-mockup {
-                transform: none;
+                transform: none !important; /* إلغاء الـ 3D تماماً في التابلت والموبايل منعا للقليتش */
                 height: 280px;
             }
         }
@@ -566,28 +569,48 @@
         @media (max-width: 768px) {
             header {
                 padding: 15px 5%;
+                flex-direction: column;
+                gap: 10px;
             }
             nav {
-                display: none; /* إخفاء القائمة الكلاسيكية في الجوال لتفادي الازدحام */
+                width: 100%;
+            }
+            nav ul {
+                justify-content: center;
+                gap: 20px;
             }
             .hero-text h1 {
-                font-size: 2.8rem;
+                font-size: 2.6rem;
+            }
+            .hero-text p {
+                font-size: 1.05rem;
             }
             .section-title-center h2 {
-                font-size: 2.2rem;
+                font-size: 2.1rem;
             }
             .footer-box h2 {
-                font-size: 2.2rem;
+                font-size: 2.1rem;
             }
             .email-link-card {
-                font-size: 1rem;
+                font-size: 1.1rem;
                 padding: 14px 20px;
-                width: 100%;
-                justify-content: center;
             }
             .tilt-box-container {
                 width: 280px;
                 height: 280px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-text h1 {
+                font-size: 2.1rem;
+            }
+            nav ul li a {
+                font-size: 0.9rem;
+            }
+            .btn-cyber, .btn-outline {
+                width: 100%;
+                padding: 14px 20px;
             }
         }
     </style>
@@ -622,7 +645,7 @@
             </div>
         </div>
         
-        <!-- صندوق التحريك التفاعلي ثلاثي الأبعاد للوغو -->
+        <!-- حاوية اللوغو ثلاثية الأبعاد الفخمة -->
         <div class="hero-image-area">
             <div class="tilt-box-container">
                 <div class="tilt-box" id="logoTilt">
@@ -645,7 +668,7 @@
                 <div class="service-card interactive-tilt">
                     <div class="service-icon">🌐</div>
                     <h3>Sites Vitrines de Prestige</h3>
-                    <p>Idéal pour les PME et professionnels. Nous concevons une identité visuelle forte et épurée qui capte immédiatement la confiance de vos visiteurs et valorise votre expertise.</p>
+                    <p>Idéal pour les PME et professionnels. Nous concevons une identity visuelle forte et épurée qui capte immédiatement la confiance de vos visiteurs et valorise votre expertise.</p>
                 </div>
             </div>
 
@@ -669,14 +692,14 @@
         </div>
     </section>
 
-    <!-- Section Portfolio (المشاريع) -->
+    <!-- Section Portfolio -->
     <section class="portfolio-section" id="portfolio">
         <div class="section-title-center reveal">
             <h2>Nos Réalisations Récentes</h2>
             <p>Découvrez comment nous traduisons les visions de nos clients en expériences numériques immersives de haut niveau.</p>
         </div>
 
-        <!-- عرض احترافي لموقع ميمورابل ايفنت -->
+        <!-- عرض مشروع ميمورابل ايفنت بشكل متناسق ومحمي من التداخل -->
         <div class="featured-project-card reveal">
             <div class="project-info">
                 <span class="project-tag">Étude de Cas : Événementiel de Luxe</span>
@@ -710,7 +733,6 @@
             <h2>Prêt à dominer votre secteur ?</h2>
             <p>Discutons de vos objectifs. Que vous ayez besoin d'un site web à partir de zéro ou d'une refonte complète, notre équipe est là pour transformer vos idées en lignes de code performantes.</p>
             
-            <!-- بريد التواصل المطلق -->
             <a href="mailto:optimacodee@gmail.com" class="email-link-card">
                 <span>📩 optimacodee@gmail.com</span>
             </a>
@@ -720,58 +742,72 @@
         <p class="copyright-text">&copy; 2026 Optima Code. Tous droits réservés. L'ingénierie web au service de votre croissance.</p>
     </footer>
 
-    <!-- Script JavaScript للتحريكات التفاعلية الـ 3D (Interactive Tilt Effect) -->
+    <!-- Script JavaScript المحسن والخالي من الـ Glitches -->
     <script>
-        // 1. تحريك اللوغو الرئيسي بالماوس ثلاثي الأبعاد
-        const logoTilt = document.getElementById('logoTilt');
-        if(logoTilt) {
-            window.addEventListener('mousemove', (e) => {
-                let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
-                let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
-                logoTilt.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
-            });
+        // كود ذكي للتحقق من أن الجهاز ليس هاتف أو تابلت باللمس قبل تفعيل الـ 3D
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+        if (!isTouchDevice) {
+            // 1. تحريك لوغو الهيرو بسلاسة تامة وفقط عند حرك الماوس داخل حاويته المخصصة
+            const tiltContainer = document.querySelector('.tilt-box-container');
+            const logoTilt = document.getElementById('logoTilt');
             
-            // إعادة اللوغو لوضعه الأصلي عند خروج الماوس
-            window.addEventListener('mouseleave', () => {
-                logoTilt.style.transform = `rotateY(0deg) rotateX(0deg)`;
-                logoTilt.style.transition = "transform 0.5s ease";
-            });
-            window.addEventListener('mouseenter', () => {
-                logoTilt.style.transition = "none";
+            if (tiltContainer && logoTilt) {
+                tiltContainer.addEventListener('mousemove', (e) => {
+                    const rect = tiltContainer.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    const xc = rect.width / 2;
+                    const yc = rect.height / 2;
+                    const angleX = (yc - y) / 15;
+                    const angleY = (x - xc) / 15;
+                    
+                    logoTilt.style.transition = "transform 0.1s ease-out";
+                    logoTilt.style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg)`;
+                });
+                
+                tiltContainer.addEventListener('mouseleave', () => {
+                    logoTilt.style.transition = "transform 0.4s ease-out";
+                    logoTilt.style.transform = `rotateX(0deg) rotateY(0deg)`;
+                });
+            }
+
+            // 2. تحريك كروت الخدمات بشكل تفاعلي ومنع النتعات عند الخروج
+            const cards = document.querySelectorAll('.interactive-tilt');
+            cards.forEach(card => {
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left; 
+                    const y = e.clientY - rect.top; 
+                    const xc = rect.width / 2;
+                    const yc = rect.height / 2;
+                    const angleX = (yc - y) / 12;
+                    const angleY = (x - xc) / 12;
+                    
+                    card.style.transition = "transform 0.1s ease-out";
+                    card.style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg) translateY(-8px)`;
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.style.transition = "transform 0.4s ease-out";
+                    card.style.transform = `rotateX(0deg) rotateY(0deg) translateY(0px)`;
+                });
             });
         }
 
-        // 2. تحريك كروت الخدمات بشكل تفاعلي ثلاثي الأبعاد منفصل عند تمرير الماوس فوقها
-        const cards = document.querySelectorAll('.interactive-tilt');
-        cards.forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                const rect = card.getBoundingClientRect();
-                const x = e.clientX - rect.left; 
-                const y = e.clientY - rect.top; 
-                const xc = rect.width / 2;
-                const yc = rect.height / 2;
-                const angleX = (yc - y) / 10;
-                const angleY = (x - xc) / 10;
-                card.style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg) translateY(-5px)`;
-            });
-            card.addEventListener('mouseleave', () => {
-                card.style.transform = `rotateX(0deg) rotateY(0deg) translateY(0px)`;
-            });
-        });
-
-        // 3. تحريك العناصر عند النزول بالصفحة (Scroll Reveal)
+        // 3. تحريك العناصر عند السكرول (Scroll Reveal)
         const revealElements = document.querySelectorAll('.reveal');
         const scrollReveal = () => {
             revealElements.forEach(element => {
                 const elementTop = element.getBoundingClientRect().top;
                 const windowHeight = window.innerHeight;
-                if (elementTop < windowHeight - 100) {
+                if (elementTop < windowHeight - 80) {
                     element.classList.add('active');
                 }
             });
         };
         window.addEventListener('scroll', scrollReveal);
-        window.addEventListener('load', scrollReveal); // تشغيل عند تحميل الصفحة أول مرة
+        window.addEventListener('load', scrollReveal);
     </script>
 
 </body>
